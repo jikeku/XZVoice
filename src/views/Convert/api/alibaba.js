@@ -22,14 +22,14 @@ class AlibabaAPI {
 		const keyObj = store.get("set.key");
 		if(keyObj){ 
 			console.log('---------使用自定义key----------')
-			this.AccessKeyId = keyObj.accessKeyId;
-			this.AccessKeySecret = keyObj.accessKeySecret;
-			this.appkey = keyObj.appkey;
+			this.AccessKeyId = 'Mbz45XiOuAkyrFjs';
+			this.AccessKeySecret = 'XawMFqRGms40wKYiCKx65BELyxPTPe';
+			this.appkey = '2MvdR58xKA7wz4vk';
 		}else{ 
 			console.log('---------使用内部key----------')
-			this.AccessKeyId = '设置成你在阿里云申请的：AccessKeyId';
-			this.AccessKeySecret = '设置成你在阿里云申请的：AccessKeySecret';
-			this.appkey = '设置成你在阿里云申请的：appkey';
+			this.AccessKeyId = 'Mbz45XiOuAkyrFjs';
+			this.AccessKeySecret = 'XawMFqRGms40wKYiCKx65BELyxPTPe';
+			this.appkey = '2MvdR58xKA7wz4vk';
 			
 		}
 	}
